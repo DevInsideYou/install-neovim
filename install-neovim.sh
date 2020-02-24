@@ -20,7 +20,7 @@ sudo apt install -yqqq curl
 # install neovim
 sudo curl -L $SOURCE -o $TARGET
 
-sudo chmod +x $TARGET
+sudo chmod 755 $TARGET
 
 echo
 nvim --version | head -1
