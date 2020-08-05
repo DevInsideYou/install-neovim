@@ -6,7 +6,7 @@ rm $0
 FALLBACK_VERSION="0.4.4"
 
 if [ "$1" == "" ]; then
-    VERSION=$FALLBACK_VERSION
+    VERSION="v$FALLBACK_VERSION"
 else
     VERSION="v$1"
 fi
