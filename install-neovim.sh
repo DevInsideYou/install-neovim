@@ -3,15 +3,15 @@
 # remove yourself
 rm $0
 
-FALLBACK_VERSION="0.5.1"
+FALLBACK_VERSION="0.6.0"
 
 if [ "$1" == "" ]; then
-    VERSION="v$FALLBACK_VERSION"
+    VERSION="$FALLBACK_VERSION"
 else
-    VERSION="v$1"
+    VERSION="$1"
 fi
 
-SOURCE=https://github.com/neovim/neovim/releases/download/$VERSION/nvim.appimage
+SOURCE=https://github.com/neovim/neovim/releases/download/v$VERSION/nvim.appimage
 TARGET=/usr/local/bin/nvim
 
 # install curl
