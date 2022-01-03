@@ -3,7 +3,7 @@
 # remove yourself
 rm $0
 
-FALLBACK_VERSION="0.6.0"
+FALLBACK_VERSION="0.6.1"
 
 if [ "$1" == "" ]; then
     VERSION="$FALLBACK_VERSION"

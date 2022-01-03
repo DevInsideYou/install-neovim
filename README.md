@@ -1,4 +1,4 @@
-# Installs [Neovim 0.6.0](https://neovim.io/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [Neovim 0.6.1](https://neovim.io/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/neovim
@@ -9,5 +9,5 @@ sudo chmod +x neovim && ./neovim
 
 ```bash
 wget -q https://script.install.devinsideyou.com/neovim
-sudo chmod +x neovim && ./neovim 0.6.0
+sudo chmod +x neovim && ./neovim 0.6.1
 ```
